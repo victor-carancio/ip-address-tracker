@@ -2,10 +2,10 @@
   background-image: url("../assets/pattern-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 300px;
+  height: 18.75rem;
 
   @include breakpoint-up(large) {
-    height: 280px;
+    height: 17.5rem;
   }
 
   display: flex;
@@ -14,24 +14,24 @@
   align-items: center;
 
   .header-title {
-    margin-top: 30px;
-    margin-bottom: 34px;
+    margin-top: 1.875rem;
+    margin-bottom: 2.125rem;
     font-weight: 500;
   }
 
   .input-container {
     width: 80%;
-    max-width: 550px;
-    height: 60px;
+    max-width: 34.375rem;
+    height: 3.75rem;
     display: flex;
   }
 
   .ip-input {
     width: 88%;
-    border-bottom-left-radius: 15px;
-    border-top-left-radius: 15px;
+    border-bottom-left-radius: 0.9375rem;
+    border-top-left-radius: 0.9375rem;
     font-size: $font-large;
-    padding: 0 26px;
+    padding: 0 1.625rem;
     &::selection {
       border: none;
     }
@@ -42,10 +42,10 @@
 
   .btn-submit {
     background-color: $black;
-    max-height: 60px;
+    max-height: 3.75rem;
     width: 12%;
-    border-bottom-right-radius: 15px;
-    border-top-right-radius: 15px;
+    border-bottom-right-radius: 0.9375rem;
+    border-top-right-radius: 0.9375rem;
     &:hover {
       background-color: $very-dark-gray;
     }
@@ -53,13 +53,7 @@
   .ip-input,
   .btn-submit {
     cursor: pointer;
-    height: 55px;
+    height: 3.4375rem;
     border: none;
   }
-  /*  .error-msg {
-    margin-top: 5px;
-    color: rgb(179, 0, 0);
-    text-align: center;
-    font-weight: 700;
-  } */
 }

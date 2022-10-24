@@ -3,8 +3,8 @@
 
   width: 80%;
   max-width: 600px;
-  height: 295px;
-  border-radius: 15px;
+  height: 18.4375rem;
+  border-radius: 0.9375rem;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 
   position: absolute;
@@ -17,7 +17,7 @@
   @include breakpoint-up(large) {
     max-width: none;
     width: 78%;
-    height: 160px;
+    height: 10rem;
   }
 
   .info-container {
@@ -34,18 +34,18 @@
   }
 
   .info {
-    margin-top: 25px;
+    margin-top: 1.5625rem;
 
     @include breakpoint-up(large) {
       width: 25%;
-      margin-top: 40px;
+      margin-top: 2.5rem;
     }
     p {
       text-align: center;
       color: $dark-gray;
-      font-size: 10px;
+      font-size: $font-small;
       font-weight: 700;
-      margin-bottom: 3px;
+      margin-bottom: 0.1875rem;
 
       @include breakpoint-up(large) {
         text-align: left;
@@ -55,22 +55,22 @@
     h4 {
       color: $very-dark-gray;
       font-weight: 500;
-      font-size: 22px;
+      font-size: 1.375rem;
     }
 
     p,
     h4 {
       @include breakpoint-up(large) {
-        padding-left: 35px;
-        padding-right: 25px;
+        padding-left: 2.1875rem;
+        padding-right: 1.5625rem;
       }
     }
   }
   .space {
     @include breakpoint-up(large) {
       margin: auto 0;
-      height: 80px;
-      width: 0.1px;
+      height: 5rem;
+      width: 0.0063rem;
       background-color: $light-gray;
     }
   }
