@@ -6,7 +6,7 @@ const url = `https://geo.ipify.org/api/v2/country,city?apiKey=${process.env.REAC
 const AppContext = React.createContext();
 
 const AppProvider = ({ children }) => {
-  const [ip, setIp] = useState("8.8.8.8");
+  const [ip, setIp] = useState("192.212.174.101");
   const [ipData, setIpData] = useState({});
   const [error, setError] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
